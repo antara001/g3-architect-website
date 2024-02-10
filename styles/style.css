@@ -6,6 +6,16 @@ font-family: 'Lobster Two', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    background: orange;
+    border-radius: 8px;
+    color: #fff;
+    padding: 20px 25px;
+    border: 0;
+    cursor:pointer;
+    font-size: 1.25rem;
+
+}
 header{
     background-color: bisque;
     padding: 45px 240px;
@@ -49,4 +59,16 @@ nav li a{
 }
 .banner-description{
     color:rgba(0, 0, 0, 0.214)
+}
+.banner img{
+width:100%;
+margin-top: 20px;
+}
+@media screen and (max-width:576px) {
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
