@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Open+Sans:ital@0;1&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: bisque;
+    padding: 45px 240px;
+   
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 700;
+    font-size:1.8rem;
+    color: black;
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right:30px;
+   
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: black;
+}
+.banner-description{
+    color:rgba(0, 0, 0, 0.214)
+}
