@@ -65,7 +65,7 @@ width:100%;
 margin-top: 20px;
 }
 main{
-    max-width:1440px;
+    max-width:1150px;
     margin: 70px auto;
 }
 .teams-container{
@@ -114,8 +114,8 @@ font-weight: 500px;
    
 }
 .feature-img img{
-   height: 90%;
-   margin-left: 20px;
+   height: 80%;
+   margin-right: 0px;
   
 }
 
